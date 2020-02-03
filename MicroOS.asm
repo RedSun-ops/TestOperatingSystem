@@ -16,7 +16,7 @@ start:
 	jmp $			; Jump here - infinite loop!
 
 
-	text_string db 'Test Operating system', 0
+	text_string db 'N3W *nix like OS', 0
 
 
 print_string:			; Routine: output string in SI to screen
